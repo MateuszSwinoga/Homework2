@@ -12,10 +12,6 @@ public class Homework2 {
         String[] happyList=new String[]{"Mateusz","Justyna","Marta","Paulina","Pawel"};
 
 
-
-
-
-
         if (age>=18) {
             System.out.println(name + " " + surname + " " + "You can enter");
             if (age>=18&25>=age) {
@@ -29,14 +25,9 @@ public class Homework2 {
                 else {
                     System.out.println("You're to old for free beer");
                 }
-
         }
         else{
             System.out.println(name + " " + surname + " " + "You can't enter");
         }
-
-
-
-
     }
 }
